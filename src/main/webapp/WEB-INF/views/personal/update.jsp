@@ -95,7 +95,7 @@
 		<div class="mb-3">◆주소</div>
 		<input id="post" type="text" placeholder="우편번호" onclick="findAddr()"
 			value="${personalAddress.zoneCode}">
-		<button id="detailAddress" type="button" class="btn btn-primary"
+		<button id="detailAddress" type="button" class="btn btn-primary" style="background-color: rgba(0, 195, 98, 255); border: none; margin-bottom: 10px; margin-top: 10px"
 			onclick="findAddr()">우편번호찾기</button>
 		<br> <input id="addr" type="text"
 			value="${personalAddress.roadJibunAddr}" style="width: 620px;">
@@ -108,7 +108,7 @@
 	</form>
 	<div class="mb-5"></div>
 	<div class="d-grid gap-1 col-2 mx-auto">
-		<button id="btnUpdate" type="button" class="btn btn-primary" >수정완료</button>
+		<button id="btnUpdate" type="button" class="btn btn-primary" style="background-color: rgba(0, 195, 98, 255); border: none; margin-bottom: 10px; margin-top: 10px" >수정완료</button>
 	</div>
 
 </div>

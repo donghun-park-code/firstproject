@@ -3,33 +3,33 @@
 <%@ include file="../layout/header.jsp"%>
 <div id="containermain">
 	<div id="companyrank">
-		<h2>회사 공고 추천 TOP 3</h2>
+		<h2 style="text-align: center">경 ★푸홀스 700홈런 달성★ 축</h2>
 		<ul>
 
 			<li>
 				<div class="company-item">
 					<div class="company-cover"></div>
 					<div class="album-info">
-						<p class="company_title">이름1</p>
-						<p class="likerank">1등</p>
+						<p class="company_title">세인트루이스 카디널스</p>
+						<p class="likerank">GOAT</p>
 					</div>
 				</div>
 			</li>
 			<li>
 				<div class="company-item">
-					<div class="company-cover"></div>
+					<div class="company-cover1"></div>
 					<div class="company-info">
-						<p class="company_title">이름2</p>
-						<p class="likerank">2등</p>
+						<p class="company_title">애틀란타 브레이브스</p>
+						<p class="likerank">존 스몰츠</p>
 					</div>
 				</div>
 			</li>
 			<li>
 				<div class="company-item">
-					<div class="company-cover"></div>
+					<div class="company-cover2"></div>
 					<div class="album-info">
-						<p class="company_title">이름3</p>
-						<p class="likerank">3등</p>
+						<p class="company_title">시애틀 매리너스</p>
+						<p class="likerank">켄 그리피 주니어</p>
 					</div>
 				</div>
 			</li>
@@ -75,8 +75,8 @@
 										${jobPostingBoardList.jobPostingBoardTitle}</a>
 								</div>
 							</td>
-							<td>${jobPostingBoardList.formatDeadLine} 
-							<p>${jobPostingBoardList.state}</p>
+							<td><div id="apply" class="container p-4 my-4 border">${jobPostingBoardList.formatDeadLine}<br>${jobPostingBoardList.state}</div>
+
 							</td>
 						</tr>
 					</c:forEach>
